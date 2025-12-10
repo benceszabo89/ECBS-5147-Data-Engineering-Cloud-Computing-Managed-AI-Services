@@ -11,4 +11,4 @@ CREATE EXTERNAL TABLE
     date DATE,
     retrieved_at STRING)
 ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe'
-LOCATION 's3://<username>-wikidata/raw-edits/';
+LOCATION 's3://szbeni-wikidata/raw-edits/';

@@ -5,8 +5,8 @@ import boto3
 import requests
 
 # Set your username here - must match the bucket created in the notebook
-# Bucket name: <username>-wikidata
-S3_WIKI_BUCKET = "<username>-wikidata"
+# Bucket name: szbeni-wikidata
+S3_WIKI_BUCKET = "szbeni-wikidata"
 
 
 def lambda_handler(event, context):

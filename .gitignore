@@ -12,10 +12,6 @@ encrypted*.dat
 
 /data/
 /.aws
-my_keypair
-my_keypair.pub
-
-encrypted_message.bin
 
 .env
 
@@ -26,3 +22,12 @@ encrypted_message.bin
 # Solution files for views assignment (kept local only)
 pipeline/solutions/*
 !pipeline/solutions/extract_edits_solution.ipynb
+
+ceu_key
+ceu_key.pub
+keypair-258584-homework
+keypair-258584-homework.pub
+my_keypair
+my_keypair.pub
+szbeni_keypair.pem
+encrypted_message.bin
